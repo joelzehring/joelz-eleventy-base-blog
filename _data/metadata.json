@@ -1,16 +1,16 @@
 {
-  "title": "Your Blog Name",
+  "title": "Joel Zehring",
   "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "I am a Christian, a husband, a father, and an aspiring web developer.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "I am a Christian, a husband, a father, and an aspiring web developer.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "url": "https://myurl.com/feed/feed.xml",
     "id": "https://myurl.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Joel",
+    "email": "joelzehring@gmail.com"
   }
 }
