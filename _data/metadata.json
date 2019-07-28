@@ -1,16 +1,16 @@
 {
   "title": "Joel Zehring",
-  "url": "https://myurl.com/",
+  "url": "https://joelz.me/",
   "description": "I am a Christian, a husband, a father, and an aspiring web developer.",
   "feed": {
     "subtitle": "I am a Christian, a husband, a father, and an aspiring web developer.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://myurl.com/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "url": "https://joelz.me/feed/feed.xml",
+    "id": "https://joelz.me/"
   },
   "author": {
-    "name": "Joel",
+    "name": "Joel Zehring",
     "email": "joelzehring@gmail.com"
   }
 }
