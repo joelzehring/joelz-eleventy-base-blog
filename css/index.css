@@ -44,13 +44,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  background-image: linear-gradient(to right, purple -60%, aqua 130%);
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 2em;
-  font-weight: 500;
+  border-bottom: 1px dashed var(--lightgray);
 }
 header:after {
   content: "";
