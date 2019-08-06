@@ -1,0 +1,75 @@
+/* blue animation */
+		
+.containerBlueAnim {
+    margin-top: 2em;
+    height: 3em;
+    width: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    }
+    
+.pixelBlueAnim {
+    align-content: stretch;
+    }
+    
+#pixelBlueAnima1 {
+    width: 0;
+    height: 0;
+    border-top: .7em solid hsl(0,0%,0%);
+    border-right: 1.2em solid transparent;
+    animation: BlueAnim 2.4s infinite;
+    animation-delay: 0s;
+    }
+    
+#pixelBlueAnima2 {
+    animation: BlueAnim 2.4s infinite;
+    animation-delay: .3s;
+    }
+    
+#pixelBlueAnima3 {
+    width: .7em;
+    animation: BlueAnim 2.4s infinite;
+    animation-delay: .6s;
+    
+    }
+    
+#pixelBlueAnimb1 {
+    
+    }
+    
+#pixelBlueAnimb2 {
+    animation: BlueAnim 2.4s infinite;
+    animation-delay: .9s;
+    }
+    
+#pixelBlueAnimb3 {
+    
+    }
+    
+#pixelBlueAnimc1 {
+    
+    }
+    
+#pixelBlueAnimc2 {
+    animation: BlueAnim 2.4s infinite;
+    animation-delay: 1.2s;
+    }
+    
+#pixelBlueAnimc3 {
+    
+    }
+    
+@keyframes BlueAnim {
+    0% {background-color: hsl(200,80%,30%);}
+    20% {background-color: hsl(200,80%,34%);}
+    40% {background-color: hsl(200,80%,38%);}
+    50% {background-color: hsl(200,80%,42%);}
+    60% {background-color: hsl(200,80%,46%);}
+    70% {background-color: hsl(200,80%,50%);}
+    80% {background-color: hsl(200,80%,54%);}
+    90% {background-color: hsl(200,80%,58%);}
+    100% {background-color: hsl(200,80%,62%);}
+    }
+    
+/* end blue animation */
