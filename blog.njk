@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+tags:
+  - nav
+navtitle: Blog
+permalink: /blog/
+---
+<div class="blogland">
+  <h1>Blog</h1>
+  {% set postslist = collections.posts %}
+  {% include "blogland.njk" %}
+</div>

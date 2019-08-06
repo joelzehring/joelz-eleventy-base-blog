@@ -1,0 +1,76 @@
+/* pink animation */
+		
+.containerPinkAnim {
+    height: 3em;
+    width: 3em;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    }
+    
+.pixelPinkAnim {
+    align-content: stretch;
+    }
+    
+#pixelPinkAnima1 {
+    animation: saturation 2.4s infinite;
+    animation-delay: 0s;
+    }
+    
+#pixelPinkAnima2 {
+    animation: saturation 2.4s infinite;
+    animation-delay: .3s;
+    }
+    
+#pixelPinkAnima3 {
+    animation: saturation 2.4s infinite;
+    animation-delay: .6s;
+    
+    }
+    
+#pixelPinkAnimb1 {
+    animation: saturation 2.4s infinite;
+    animation-delay: .9s;
+    }
+    
+#pixelPinkAnimb2 {
+    animation: saturation 2.4s infinite;
+    animation-delay: 1.2s;
+    }
+    
+#pixelPinkAnimb3 {
+    animation: saturation 2.4s infinite;
+    animation-delay: 1.5s;
+    }
+    
+#pixelPinkAnimc1 {
+    
+    }
+    
+#pixelPinkAnimc2 {
+    width: 0;
+    height: 0;
+    border-bottom: .9em solid black;
+    border-left: .9em solid transparent;
+    animation: saturation 2.4s infinite;
+    animation-delay: 1.8s;
+    }
+    
+#pixelPinkAnimc3 {
+    
+    }
+    
+@keyframes saturation {
+    0% {background-color: hsl(330,80%,30%);}
+    10% {background-color: hsl(330,80%,34%);}
+    20% {background-color: hsl(330,80%,38%);}
+    30% {background-color: hsl(330,80%,42%);}
+    45% {background-color: hsl(330,80%,46%);}
+    60% {background-color: hsl(330,80%,50%);}
+    75% {background-color: hsl(330,80%,54%);}
+    90% {background-color: hsl(330,80%,58%);}
+    100% {background-color: hsl(330,80%,60%);}
+    }
+    
+/* end pink animation */
