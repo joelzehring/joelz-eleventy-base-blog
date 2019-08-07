@@ -148,6 +148,7 @@ header {
   background-color: black;
   z-index: 0;
 }
+
 .home {
   padding: 0 1rem;
   margin: 1rem 0; /* 16px /16 */
@@ -174,6 +175,12 @@ header {
 .nav-item-active {
   font-weight: 700;
   text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  .home {font-size: 1em;}
+  
+  .nav-item {font-size: .7em;}
 }
 
 /* Landing Page Layout */
