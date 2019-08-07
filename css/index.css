@@ -177,7 +177,7 @@ header {
   text-decoration: underline;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 720px) {
   .home {font-size: 1em;}
   
   .nav-item {font-size: .7em;}
