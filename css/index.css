@@ -52,7 +52,7 @@ a[href]:hover {
   text-decoration: none;
 }
 
-#projects p>a[href], #projects p>a[href]:visited, #projects p>a[href]:hover {
+#projects li>a[href], #projects li>a[href]:visited, #projects li>a[href]:hover {
   color: var(--eblue);
   text-decoration: none;
 }
@@ -193,21 +193,38 @@ section {
   justify-content: center;
 }
 
+.projects-section {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Project Links */
+
+.project-links {
+  padding-right: 1em;
+  list-style: none;
+}
+
+
+
+.project-links a {
+  text-decoration: none;
+}
+
 /* Contact Links */
 
-.links-list {
+.contacts-links {
   padding: 0;
   list-style: none;
 }
 
-.links-list li {
+.contacts-links li {
   display: inline;
   padding: 1em;
 }
 
-.links-list a {
+.contacts-links a {
   text-decoration: none;
-  color: hsla(330,100%,50%,1);
 }
 
 /* Blog Layout */
