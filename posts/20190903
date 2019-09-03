@@ -1,0 +1,9 @@
+---
+title: The React Tutorial I've Been Looking For
+description: 
+date: 2019-09-03
+tags:
+  - tech
+layout: layouts/post.njk
+---
+React is just far enough away from plain HTML, CSS, and JavaScript that I've been having a hard time actually building with it. Then I stumbled across <a href="https://reactjs.org/docs/hello-world.html">this tutorial</a> on the official React site, and it slowly started to click. Now I've got a project with a few React components strung together to make a really basic random kid picker web app. 
