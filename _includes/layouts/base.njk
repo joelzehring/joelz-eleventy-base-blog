@@ -39,7 +39,7 @@
     <footer></footer>
 
     <!-- Current page: {{ page.url | url }} -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
 $(document).ready(function() { // jQuery start
 
@@ -48,21 +48,13 @@ var techList = {
   gif: ["html","css","jquery","ajax"],
   lgp: ["html","materialize","jquery","firebase","ajax"],
   mkd: ["HTML","CSS","jQuery"],
-  mcd: ["HTML","CSS","jQuery"]
+  mct: ["HTML","CSS","jQuery"]
 }
 
 function listProjectDetails() {
   var proj = $(this).attr("data-tech-list");
   var list = $(".tech-list");
-  console.log("working"); 
-  // return project list items to normal size and left-alignment
-  $(".project-item").animate({ paddingLeft: "0", fontWeight: "400" }, 50);
-  
 
-  // empty and hide the list
-  list.hide();
-  list.empty();
-  
   // populate list from array
   for (var i of techList[proj]) {
     
@@ -74,21 +66,32 @@ function listProjectDetails() {
     list.append(item);
   }
   
-  // slide clicked project right
-  $(this).animate({ paddingLeft: "1em", fontWeight: "900" }, 100);
+  // slide clicked project right and bold text
+  $(this).stop().animate({/* paddingLeft: "1em",*/ fontWeight: "900" }, 100);
 
   // display populated list
-  list.fadeIn(400);
+  list.stop().slideDown(400);
+}
+
+function clearProjectDetails() {
+  var proj = $(this).attr("data-tech-list");
+  var list = $(".tech-list");
+
+  // return project list items to normal size and left-alignment
+  $(".project-item").stop().animate({ /* paddingLeft: "0",*/ fontWeight: "400" }, 50);
+
+  // empty and hide the list
+  list.hide();
+  list.empty();
 }
 
 // Global event listeners
-$(document).on("click",".project-item", listProjectDetails);
-// $(document).on("hover",".project-item", listProjectDetails);
-
+$(document).on("mouseenter",".project-item", listProjectDetails);
+$(document).on("mouseleave",".project-item", clearProjectDetails);
 
 }); // jQuery end
-
-</script>
+  
+</script> -->
 
   </body>
 </html>
