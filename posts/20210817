@@ -1,0 +1,17 @@
+---
+title: What Is Robotic Process Automation?
+description: Spoiler alert: it doesn't have to do with a robot uprising.
+date: 2021-08-17
+tags:
+  - tech
+  - rpa
+  - uipath
+layout: layouts/post.njk
+---
+Completing a coding boot camp last year opened up opportunities for me to switch careers and become a software developer. However, I didn't end up developing web applications, even though that was my training. Instead, I took a position as a robotic process automation developer.
+
+Robotic process automation involves converting repetitive, rule-based, manual computer tasks to automated routines. There's a lot of overlap between RPA and other computer tools like macros, scripts, and even online services like IFTTT. Modern RPA platforms like UiPath and Automation Anywhere supercharge these tools by adding vast expandability and scalability.
+
+UiPath has an older post which links to some other old but helpful posts which explain RPA and a number of the dynamics at play in this growing area of IT.
+
+[Getting Started with Robotic Process Automation](https://www.uipath.com/blog/rpa/getting-started-with-robotic-process-automation)
